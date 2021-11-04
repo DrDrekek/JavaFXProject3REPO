@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ExerciseC.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="554.0" prefWidth="906.0">
+         <children>
+            <TextField fx:id="width" layoutX="529.0" layoutY="223.0" onAction="#changeDim" prefHeight="30.0" prefWidth="70.0" />
+            <Text layoutX="489.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Width:" wrappingWidth="42.3076171875" />
+            <Text layoutX="599.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Height:" wrappingWidth="52.0" />
+            <Text layoutX="720.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Colors:" />
+            <Text layoutX="588.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stroke Width:" wrappingWidth="91.0" />
+            <TextField fx:id="height" layoutX="644.0" layoutY="223.0" onAction="#changeDim" prefHeight="30.0" prefWidth="70.0" />
+            <CheckBox fx:id="stroke" layoutX="670.0" layoutY="290.0" mnemonicParsing="false" onAction="#addStroke" prefHeight="20.0" prefWidth="107.0" text="Add Stroke?" />
+            <RadioButton fx:id="radbtn_1" layoutX="690.0" layoutY="341.0" mnemonicParsing="false" onAction="#addStroke" text="1">
+               <toggleGroup>
+                  <ToggleGroup fx:id="StrokeWidth" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="radbtn_2" layoutX="741.0" layoutY="341.0" mnemonicParsing="false" onAction="#addStroke" prefHeight="20.0" prefWidth="17.0" text="2" toggleGroup="$StrokeWidth" />
+            <RadioButton fx:id="radbtn_3" layoutX="790.0" layoutY="341.0" mnemonicParsing="false" onAction="#addStroke" text="3" toggleGroup="$StrokeWidth" />
+            <Pane fx:id="pane" layoutX="7.0" layoutY="11.0" onMouseClicked="#mouse" prefHeight="536.0" prefWidth="482.0">
+               <children>
+                  <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#ff2121dc" height="105.0" layoutX="141.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+               </children></Pane>
+            <ComboBox fx:id="comboBox" layoutX="763.0" layoutY="222.0" onAction="#changeColor" prefHeight="30.0" prefWidth="127.0" promptText="Select Color" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

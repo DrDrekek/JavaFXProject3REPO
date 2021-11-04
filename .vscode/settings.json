@@ -1,0 +1,21 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17\\lib\\javafx.base.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17\\lib\\javafx.controls.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17\\lib\\javafx.fxml.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17\\lib\\javafx.graphics.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17\\lib\\javafx.media.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17\\lib\\javafx.swing.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17\\lib\\javafx.web.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17\\lib\\javafx-swt.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx.base.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx.controls.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx.fxml.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx.graphics.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx.media.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx.swing.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx.web.jar",
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx-swt.jar"
+    ]
+}
