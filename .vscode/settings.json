@@ -16,6 +16,14 @@
         "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx.media.jar",
         "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx.swing.jar",
         "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx.web.jar",
-        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx-swt.jar"
+        "d:\\study_material\\JAVA\\New_folder\\javafx-sdk-17.0.1\\lib\\javafx-swt.jar",
+        "c:\\Content\\Openjfx\\javafx-sdk-17.0.1\\lib\\javafx.base.jar",
+        "c:\\Content\\Openjfx\\javafx-sdk-17.0.1\\lib\\javafx.controls.jar",
+        "c:\\Content\\Openjfx\\javafx-sdk-17.0.1\\lib\\javafx.fxml.jar",
+        "c:\\Content\\Openjfx\\javafx-sdk-17.0.1\\lib\\javafx.graphics.jar",
+        "c:\\Content\\Openjfx\\javafx-sdk-17.0.1\\lib\\javafx.media.jar",
+        "c:\\Content\\Openjfx\\javafx-sdk-17.0.1\\lib\\javafx.swing.jar",
+        "c:\\Content\\Openjfx\\javafx-sdk-17.0.1\\lib\\javafx.web.jar",
+        "c:\\Content\\Openjfx\\javafx-sdk-17.0.1\\lib\\javafx-swt.jar"
     ]
 }
