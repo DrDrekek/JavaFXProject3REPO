@@ -85,10 +85,10 @@ public class Controller implements Initializable {
    public void mouse(MouseEvent e){
       double hei = pane.getHeight()-10;
       double wid = pane.getWidth()-10;
-      if(e.isPrimaryButtonDown()&& rectangle.getWidth()+5<wid) {
+      if(e.isShiftDown()&& rectangle.getWidth()+5<wid) {
          rectangle.setWidth(rectangle.getWidth() + 5);
       }
-      else if(e.isSecondaryButtonDown()&& rectangle.getHeight()+5<hei) {
+      else if(e.isShiftDown()&& rectangle.getHeight()+5<hei) {
          rectangle.setHeight(rectangle.getHeight() + 5);
       }
       rectangle.setLayoutX((pane.getWidth()- rectangle.getWidth())/2);
