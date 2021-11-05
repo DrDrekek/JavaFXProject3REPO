@@ -88,7 +88,7 @@ public class Controller implements Initializable {
       if(e.isShiftDown()&& rectangle.getWidth()+5<wid) {
          rectangle.setWidth(rectangle.getWidth() + 5);
       }
-      else if(e.isShiftDown()&& rectangle.getHeight()+5<hei) {
+      else if(e.isAltDown()&& rectangle.getHeight()+5<hei) {
          rectangle.setHeight(rectangle.getHeight() + 5);
       }
       rectangle.setLayoutX((pane.getWidth()- rectangle.getWidth())/2);
